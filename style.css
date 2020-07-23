@@ -1,0 +1,156 @@
+*{
+    font-family: Times New Roman;
+}
+
+.myheader
+{
+    background-color: rgba(20, 73, 245, 0.945);
+    text-align: center;
+}
+
+.myfirst
+{
+    list-style-type: none;
+    display: inline-flex;
+    
+}
+
+.myfirst1
+{
+    list-style-type: none;
+    display: inline-flex;
+    text-align: center;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+.mylogo
+{
+    width: 200px;
+}
+
+.carousel-inner img 
+{
+    width: 100%;
+    height: 100%;
+}
+
+.myscroll
+{
+    background-color: rgb(32, 87, 236);
+    color: white;
+}
+
+.myheading
+{
+    font-weight: 600;
+    color: rgb(32, 87, 236);
+    text-align: center;
+    padding-top: 60px;
+    line-height: 40px;
+}
+
+.myicon
+{
+    text-align: center;
+    font-weight: 600;
+}
+
+.myabout
+{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+    color: rgb(65, 60, 60);
+}
+
+.mysection
+{
+    background-color: rgb(32, 87, 236);
+    color: white;
+    text-align: center;
+}
+
+.myhead
+{
+    color: rgb(32, 87, 236); 
+    font-weight: 600;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 3vw;
+}
+
+.mybox
+{
+    padding: 50px;
+    width: 400px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h4
+{
+    color: rgb(43, 43, 241);
+} 
+
+.heading1
+{
+    color: rgb(32, 87, 236);
+    font-weight: 700;
+    margin-top: 60px;
+    font-size: 1.8rem
+}
+
+.myflex
+{
+    padding: 15px;
+    color: rgb(74, 74, 233);
+}
+
+.mygallery
+{
+    justify-content: center;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .gallery-img:hover .image {
+    opacity: 0.3;
+  }
+  
+  .gallery-img:hover .middle {
+    opacity: 1;
+  }
+  
+  .icon {
+    background-color: rgb(79, 79, 241);
+    border-radius: 60%;
+    color: white;
+    font-size: 16px;
+    padding: 0.5em 0.6em;
+    display: inline;
+  }
+
+  footer
+  {
+      color: rgba(255, 255, 255, 0.719);
+  }
